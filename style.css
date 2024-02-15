@@ -18,8 +18,9 @@ h1{
     outline: none;
     width: 500px;
     height: 40px;
-    /* border-radius: 2em; */
+    border-radius: 1;
     /* border-color: rgb(202, 167, 233); */
+    color : gray
 
 }
 
@@ -53,7 +54,7 @@ h1{
 
 #underLine{
     height: 4px;
-    background-color: rgb(228, 211, 244);
+    background-color: rgb(252, 229, 205);
     position: absolute;
     width: 70px;
     left : 0px;
@@ -78,13 +79,13 @@ h1{
 }
 
 #addButton {
-    background-color: rgb(228, 211, 244);
+    background-color:rgb(252, 229, 205);
     border-radius:5px;
     border-style: none;
 }
 
 .button{
-    background-color: rgb(228, 211, 244);
+    background-color: rgb(252, 229, 205);
     border-radius:5px;
     border-style: none;
     color: gray;
