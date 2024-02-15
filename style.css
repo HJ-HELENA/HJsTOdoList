@@ -10,6 +10,7 @@ h1{
     padding-top: 2em;
     display: flex;
     justify-content: center;
+    color: gray;
 
 }
 
@@ -17,6 +18,9 @@ h1{
     outline: none;
     width: 500px;
     height: 40px;
+    /* border-radius: 2em; */
+    /* border-color: rgb(202, 167, 233); */
+
 }
 
 .inputArea{
@@ -40,6 +44,7 @@ h1{
     display: flex;
     border-bottom : 1px solid lightgray;
     position: relative;
+    color: gray;
 }
 
 .taskTabs div {
@@ -48,7 +53,7 @@ h1{
 
 #underLine{
     height: 4px;
-    background-color: pink;
+    background-color: rgb(228, 211, 244);
     position: absolute;
     width: 70px;
     left : 0px;
@@ -60,9 +65,27 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    color: gray;
 }
 
 .taskDone {
     text-decoration: line-through;
     background-color: lightgray;
+}
+
+.taskTabs div {
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: rgb(228, 211, 244);
+    border-radius:5px;
+    border-style: none;
+}
+
+.button{
+    background-color: rgb(228, 211, 244);
+    border-radius:5px;
+    border-style: none;
+    color: gray;
 }
